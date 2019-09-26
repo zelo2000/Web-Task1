@@ -1,0 +1,31 @@
+.blue {
+  color: rgb(0, 102, 165);
+}
+
+.medium-blue {
+  color: rgb(7, 73, 117);
+}
+
+.dark-blue {
+  color: rgb(19, 53, 82);
+}
+
+.blue-bg {
+  background-color: rgb(0, 102, 165);
+}
+
+.medium-blue-bg {
+  background-color: rgb(7, 73, 117);
+}
+
+.dark-blue-bg {
+  background-color: rgb(19, 53, 82);
+}
+
+.red {
+  color: rgb(236, 91, 85);
+}
+
+.white {
+  color: rgb(255, 255, 255) !important;
+}

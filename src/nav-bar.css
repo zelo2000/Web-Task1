@@ -1,0 +1,13 @@
+.navbar-toggle {
+  background-color: rgb(255, 255, 255) !important;
+}
+.navbar-toggle > .icon-bar {
+  background-color: rgb(7, 73, 117) !important;
+}
+
+.navbar-toggle:focus-within {
+  background-color: rgb(19, 53, 82) !important;
+}
+.navbar-toggle:focus-within > .icon-bar {
+  background-color: rgb(255, 255, 255) !important;
+}
