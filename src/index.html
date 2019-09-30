@@ -8,31 +8,61 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="./colors.css">
+    <link rel="stylesheet" type="text/css" href="./styles/colors.css">
+    <link rel="stylesheet" type="text/css" href="./styles/nav-bar.css">
+    <link rel="stylesheet" type="text/css" href="./styles/icons.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-inverse medium-blue-bg">
+            <div class="container-fluid">
+                <div class="navbar-header medium-blue-bg">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand white" href="#">YaZOKP</a>
+                </div>
+                <div class="collapse navbar-collapse medium-blue-bg" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" class="white">General Information</a></li>
+                        <li><a href="#" class="white">Contact Us</a></li>
+                        <li><a href="#" class="white">Projects</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-    <nav class="navbar navbar-inverse medium-blue-bg">
-        <div class="container-fluid">
-            <div class="navbar-header medium-blue-bg">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand white" href="#">YaZOKP</a>
-            </div>
-            <div class="collapse navbar-collapse medium-blue-bg" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="#" class="white">General Information</a></li>
-                    <li><a href="#" class="white">Contact Us</a></li>
-                    <li><a href="#" class="white">Projects</a></li>
-                </ul>
-            </div>
+    <main></main>
+
+    <footer class="page-footer font-small special-color-dark pt-4">
+        <div class="container">
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li facebook">
+                        <i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li twitter">
+                        <i class="fa fa-twitter-square  fa-4x" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-li linkedin">
+                        <i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
-
+        <div class="footer-copyright text-center py-3">© 2019 YaZOKP Software:
+            <a href="https://yazokp-software.com/">yazokp-software.com</a>
+        </div>
+    </footer>
 </body>
 
 </html>
