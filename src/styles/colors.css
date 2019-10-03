@@ -1,3 +1,7 @@
+.light-blue {
+  color: #55acee !important;
+}
+
 .blue {
   color: rgb(0, 102, 165);
 }
@@ -8,6 +12,10 @@
 
 .dark-blue {
   color: rgb(19, 53, 82);
+}
+
+.light-blue-bg {
+  background-color: #77b7e9;
 }
 
 .blue-bg {
