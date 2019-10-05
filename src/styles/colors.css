@@ -15,7 +15,7 @@
 }
 
 .light-blue-bg {
-  background-color: #8bcdff;
+  background-color: #e0f1ff;
 }
 
 .blue-bg {
@@ -36,4 +36,8 @@
 
 .white {
   color: rgb(255, 255, 255) !important;
+}
+
+.white-bg {
+  background-color: rgb(255, 255, 255) !important;
 }
