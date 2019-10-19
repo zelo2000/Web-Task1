@@ -1,32 +1,40 @@
 .clients-container {
-  background-color: rgb(52, 52, 52) !important;
+  background-color: rgb(35, 72, 159) !important;
 }
 
 .card:hover {
   box-shadow: 0.8rem 0.8rem 0.5rem rgba(0, 0, 0) !important;
 }
 
+@media (max-width: 576px) {
+  .clients-card-size {
+    width: 15rem;
+    margin: 0 auto;
+  }
+}
+
+
 @media (min-width: 576px) {
-  .card-size {
+  .clients-card-size {
     width: 17rem;
     margin: 0 auto;
   }
 }
 
 @media (min-width: 768px) {
-  .card-size {
-    width: 12rem;
+  .clients-card-size {
+    width: 13rem;
   }
 }
 
 @media (min-width: 992px) {
-  .card-size {
+  .clients-card-size {
     width: 17rem;
   }
 }
 
 @media (min-width: 1200px) {
-  .card-size {
+  .clients-card-size {
     width: 17rem;
   }
 }

@@ -1,3 +1,91 @@
-.about-black-bg{
-    background-color: rgba(0, 0, 0, 0.85);
+.about-blue-bg {
+  background-color: rgb(35, 72, 159);
+}
+
+.about-white-text {
+  color: rgb(255, 255, 255, 0.95);
+}
+
+.featurette-heading {
+  padding-bottom: 0.75rem;
+  border-width: 0 0 2px;
+  border-style: solid;
+}
+
+/*MANAGMENT CARD*/
+
+@media (max-width: 576px) {
+  .managment-card-size {
+    width: 20rem;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .managment-card-size {
+    width: 17rem;
+    margin: 0 auto;
+  }
+  .managment-card-size h2 {
+    font-size: 1.5rem;
+  }
+  .managment-card-size h3 {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .managment-card-size {
+    width: 17rem;
+  }
+  .managment-card-size h2 {
+    font-size: 1.6rem;
+  }
+  .managment-card-size h3 {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .managment-card-size {
+    width: 17rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .managment-card-size {
+    width: 17rem;
+  }
+}
+
+/* CORE VALUE */
+
+@media (max-width: 576px) {
+  .core-value-size {
+    width: 20rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .core-value-size {
+    width: 17rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .core-value-size {
+    width: 15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .core-value-size {
+    width: 17rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .core-value-size {
+    width: 17rem;
+  }
 }
