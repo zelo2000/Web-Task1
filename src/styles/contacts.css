@@ -1,0 +1,56 @@
+.contact-input {
+  background-color: #252629;
+  border: none;
+  color: white;
+}
+
+.contact-input:focus {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #28292c;
+  box-shadow: none;
+  color: white;
+}
+
+.contacts-text-area {
+  resize: none;
+}
+
+.submit-btn {
+  background-color: rgb(7, 31, 117);
+  color: white;
+}
+
+.submit-btn:hover {
+  color: white;
+  background-color: rgb(27, 52, 142);
+}
+
+.submit-btn:focus {
+  box-shadow: 0 0 0 0.1rem rgba(255, 255, 255, 0.8);
+  color: white;
+}
+
+.social-network {
+  height: 2rem;
+  width: 2rem;
+}
+
+.contacts-black-bg {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.meedium-black-bg {
+  background-color: rgb(35, 35, 35);
+}
+
+.phone {
+  color: rgb(20, 20, 165);
+}
+
+.letter {
+  color: rgb(20, 20, 165);
+}
+
+.point {
+  color: rgb(20, 20, 165);
+}

@@ -1,0 +1,21 @@
+.title-container {
+  min-height: 100vh;
+}
+
+.title-heading {
+  position: relative;
+  top: 40vh;
+  color: rgb(0, 15, 130);
+}
+
+.title-heading i {
+  font-size: larger;
+  font-family: auto;
+}
+
+.title-sub-heading {
+  position: relative;
+  top: 41vh;
+  color: rgba(48, 93, 198);
+  font-size: 1.7rem;
+}
